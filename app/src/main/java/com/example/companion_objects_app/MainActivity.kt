@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         changerButton.setOnClickListener {
             val background = Background(this)
-            background.set(constraintLayout, dayNightEditText.text.toString())
+            background.set(constraintLayout, dayNightEditText.text.toString(),labelTextView,dayNightEditText)
         }
 
     }
